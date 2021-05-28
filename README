@@ -8,7 +8,7 @@ You also need to install PIP (Python Package Installer) which you ca download an
 Then run
             pip3 install requests hurry.filesize elementpath
 
-Included with this package, there is a plain text file to hold the IP addresses of the Palo Alto Networks firewalls that you'd like to generate the stats dump on.
+Included with this package, there is a plain text file to hold the IP addresses of the Palo Alto Networks firewalls that you'd like to generate the TSF on.
 This is a newline delimiter file, follow the prompts in the script and you should good to go
 
 To run the application execute the below
@@ -16,3 +16,5 @@ To run the application execute the below
             python3 tsfgenerator.py
 
 The tech support file will be saved in the same folder as these scripts
+
+Note: This script is provided as-is without any support or warranty. Please track all feature request and bugs in Issue Tracker.
