@@ -1,8 +1,6 @@
-This is a script to automatically generate stats dump on multiple Palo Alto Networks firewalls to be used for Security Lifecycle Report.
-There is also a BPA automation which automatically send the request to BPA API site and generate the BPA reports and download them automatically.
-This process requires NO tech support dump and speed up the process of BPA. You need to a BPA API Token to use this feature.
+This is a script to automatically generate the tech support file  on multiple Palo Alto Networks firewalls.
 
-To find more information about BPA report, please go to https://www.paloaltonetworks.com/services/bpa
+To find more information about manual TSF generation, please go to: https://knowledgebase.paloaltonetworks.com/KCSArticleDetail?id=kA10g000000ClRlCAK
 To find more information about SLR, please go to https://docs.paloaltonetworks.com/cortex/security-lifecycle-review/security-lifecycle-review-getting-started/getting-started/what-is-slr.html
 
 This script was tested and written using MACOS Mojave, Python 3.8, Panos 8.1, 9.0 and 9.1
@@ -17,6 +15,6 @@ This is a newline delimiter file, follow the example and you should good to go
 
 To run the application execute the below
 
-            python3 StatsDumpGenerator.py
+            python3 tsfgenerator.py
 
-The stats dumps, tech support file and BPA reports will be saved in the same folder as these scripts
+The tech support file will be saved in the same folder as these scripts
