@@ -9,6 +9,7 @@ Then run
             pip3 install requests hurry.filesize elementpath
 
 Included with this package, there is a plain text file to hold the IP addresses of the Palo Alto Networks firewalls that you'd like to generate the TSF on.
+The script will create a thread for each IP address in the file ip.txt, verify reachability, create the API key and download the TSF file.
 This is a newline delimiter file, follow the prompts in the script and you should good to go
 
 To run the application execute the below
